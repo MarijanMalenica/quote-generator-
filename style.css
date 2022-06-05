@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+}
+
+img {
+    max-width: 100%;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    width: 97vw;
+    height: 95vh;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    width: 30vw;
+    height: 40vh;
+    padding: 1.4rem;
+    position: relative;
+    align-self: center;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.divider {
+    width: 100%;
+    padding: 0;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+#advice-button {
+    padding: 1rem;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#advice-button:active {
+    box-shadow: 0px 0px 30px hsl(150, 100%, 66%);
+}
+
+#advice {
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+}
